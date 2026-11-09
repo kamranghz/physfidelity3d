@@ -1,0 +1,18 @@
+{
+  "model": "MASt3R",
+  "scene": "picasso_pan_bowl_spatula_spread_scaled",
+  "sps_scene": 5.29834487803597,
+  "per_object_ke": {
+    "0": 1.7163392774830761,
+    "1": 1.9610166031326826,
+    "2": 1.6209889974202116
+  },
+  "blow_up": false,
+  "n_objects": 3,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

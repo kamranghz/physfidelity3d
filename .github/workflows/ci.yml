@@ -1,0 +1,27 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  reproduce:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -e ".[dev]"
+      - run: ruff check physfidelity3d tests
+      - run: python -m physfidelity3d validate
+      - run: pytest -q
+      - run: python -m physfidelity3d reproduce --out outputs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: outputs-${{ matrix.os }}
+          path: outputs/

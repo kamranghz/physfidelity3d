@@ -1,0 +1,159 @@
+{
+  "model": "VGGT-Omega",
+  "scene": "ycbv_000057_spread",
+  "nps_scene_mm": 1.1431131740930076,
+  "per_object_nps_mm": {
+    "4": 0.0,
+    "12": 2.0,
+    "18": 1.833165837927336,
+    "20": 0.04923419461036663,
+    "21": 1.833165837927336
+  },
+  "pen_matrix_mm": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      9.16582918963668
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      9.16582918963668,
+      0.0,
+      0.0
+    ]
+  ],
+  "pen_matrix_raw_mm": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      9.16582918963668
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      9.16582918963668,
+      0.0,
+      0.0
+    ]
+  ],
+  "cap_hit_matrix": [
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "n_cap_hits": 0,
+  "cap_hit_fraction": 0.0,
+  "per_object_env_pen_raw_mm": {
+    "4": 0.0,
+    "12": 85.70293769058691,
+    "18": 0.0,
+    "20": 0.24617097305183316,
+    "21": 0.0
+  },
+  "per_object_env_pen_mm": {
+    "4": 0.0,
+    "12": 10.0,
+    "18": 0.0,
+    "20": 0.24617097305183316,
+    "21": 0.0
+  },
+  "per_object_env_cap_hit": {
+    "4": false,
+    "12": true,
+    "18": false,
+    "20": false,
+    "21": false
+  },
+  "object_order": [
+    "4",
+    "12",
+    "18",
+    "20",
+    "21"
+  ],
+  "n_objects": 5,
+  "formula": "Eq.16 arXiv:2602.08058v2",
+  "sdf_tool": "Picasso query_sdf_from_mesh (libigl)",
+  "pen_cap_m": 0.01,
+  "indicator": "Eq.16_standard_no_ADD-S",
+  "free_space_skipped": true
+}

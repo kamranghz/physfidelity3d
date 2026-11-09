@@ -1,0 +1,19 @@
+{
+  "model": "MASt3R",
+  "scene": "tless_000004_spread_scaled",
+  "sps_scene": 0.4137657260420354,
+  "per_object_ke": {
+    "5": 0.33253792071339416,
+    "8": 0.022593809811569263,
+    "26": 0.05783369948013292,
+    "28": 0.0008002960369390454
+  },
+  "blow_up": false,
+  "n_objects": 4,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

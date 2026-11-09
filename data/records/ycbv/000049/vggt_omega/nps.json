@@ -1,0 +1,121 @@
+{
+  "model": "VGGT-Omega",
+  "scene": "ycbv_000049_spread",
+  "nps_scene_mm": 6.657123864943876,
+  "per_object_nps_mm": {
+    "3": 10.0,
+    "6": 7.474418939395674,
+    "9": 4.974418939395673,
+    "13": 4.179657580984156
+  },
+  "pen_matrix_mm": [
+    [
+      0.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    [
+      10.0,
+      0.0,
+      9.897675757582693,
+      0.0
+    ],
+    [
+      10.0,
+      9.897675757582693,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "pen_matrix_raw_mm": [
+    [
+      0.0,
+      45.52091346767225,
+      32.24445435077001,
+      10.235899099913752
+    ],
+    [
+      45.52091346767225,
+      0.0,
+      9.897675757582693,
+      0.0
+    ],
+    [
+      32.24445435077001,
+      9.897675757582693,
+      0.0,
+      0.0
+    ],
+    [
+      10.235899099913752,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "cap_hit_matrix": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "n_cap_hits": 3,
+  "cap_hit_fraction": 0.5,
+  "per_object_env_pen_raw_mm": {
+    "3": 174.3324054719259,
+    "6": 528.0754794069082,
+    "9": 0.0,
+    "13": 6.7186303239366225
+  },
+  "per_object_env_pen_mm": {
+    "3": 10.0,
+    "6": 10.0,
+    "9": 0.0,
+    "13": 6.7186303239366225
+  },
+  "per_object_env_cap_hit": {
+    "3": true,
+    "6": true,
+    "9": false,
+    "13": false
+  },
+  "object_order": [
+    "3",
+    "6",
+    "9",
+    "13"
+  ],
+  "n_objects": 4,
+  "formula": "Eq.16 arXiv:2602.08058v2",
+  "sdf_tool": "Picasso query_sdf_from_mesh (libigl)",
+  "pen_cap_m": 0.01,
+  "indicator": "Eq.16_standard_no_ADD-S",
+  "free_space_skipped": true
+}

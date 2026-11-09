@@ -1,0 +1,19 @@
+{
+  "model": "VGG-TTT",
+  "scene": "picasso_pan_spatula_steak_broccoli_spread",
+  "sps_scene": 4.328669500193397,
+  "per_object_ke": {
+    "0": 4.068178786938714,
+    "1": 0.24047071465152903,
+    "2": 0.004420501763903876,
+    "3": 0.01559949683924988
+  },
+  "blow_up": false,
+  "n_objects": 4,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

@@ -1,0 +1,20 @@
+{
+  "model": "VGGT",
+  "scene": "ycbv_000057_spread",
+  "sps_scene": 0.010525365508895032,
+  "per_object_ke": {
+    "4": 0.0006260480759954298,
+    "12": 0.0025673561734650754,
+    "18": 0.00038940979537287456,
+    "20": 0.006546035002602103,
+    "21": 0.00039651646145954914
+  },
+  "blow_up": false,
+  "n_objects": 5,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

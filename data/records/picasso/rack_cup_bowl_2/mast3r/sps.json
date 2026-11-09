@@ -1,0 +1,18 @@
+{
+  "model": "MASt3R",
+  "scene": "picasso_rack_cup_bowl_2_spread_scaled",
+  "sps_scene": 0.03513578754289215,
+  "per_object_ke": {
+    "0": 0.0030848850937415725,
+    "1": 0.0015252479354819805,
+    "2": 0.030525654513668593
+  },
+  "blow_up": false,
+  "n_objects": 3,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

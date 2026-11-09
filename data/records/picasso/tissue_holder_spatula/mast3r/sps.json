@@ -1,0 +1,18 @@
+{
+  "model": "MASt3R",
+  "scene": "picasso_tissue_holder_spatula_spread_scaled",
+  "sps_scene": 2.371348628325822,
+  "per_object_ke": {
+    "0": 0.995249348754893,
+    "1": 1.186462376282326,
+    "2": 0.18963690328860255
+  },
+  "blow_up": false,
+  "n_objects": 3,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

@@ -1,0 +1,21 @@
+{
+  "model": "DUSt3R",
+  "scene": "tless_000008_spread_scaled",
+  "sps_scene": 0.1869387536304531,
+  "per_object_ke": {
+    "19": 0.00510453530741286,
+    "20": 0.0007276730034492682,
+    "21": 0.0005648795394618644,
+    "22": 0.0004301143718516474,
+    "23": 0.1707404716385881,
+    "24": 0.009371079769689332
+  },
+  "blow_up": false,
+  "n_objects": 6,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

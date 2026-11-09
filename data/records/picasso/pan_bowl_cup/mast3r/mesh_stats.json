@@ -1,0 +1,20 @@
+{
+  "0": {
+    "watertight": false,
+    "vertex_count": 134862,
+    "face_count": 269840,
+    "volume_m3": null
+  },
+  "1": {
+    "watertight": false,
+    "vertex_count": 23672,
+    "face_count": 47356,
+    "volume_m3": null
+  },
+  "2": {
+    "watertight": true,
+    "vertex_count": 37818,
+    "face_count": 75804,
+    "volume_m3": 0.0003659333558919719
+  }
+}

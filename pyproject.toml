@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "physfidelity3d"
+version = "1.0.0"
+description = "Records and analysis code for 'Benchmarking the Physical Fidelity of Feed-Forward 3D Reconstruction for Physical AI' (WIPAI '26)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Kamran Gholizadeh HamlAbadi" },
+  { name = "Monica Vahdati" },
+  { name = "Ali Etemad" },
+  { name = "Abdulmotaleb El Saddik" },
+]
+dependencies = [
+  "numpy>=1.24,<3",
+  "pandas>=2.0,<3",
+  "scipy>=1.11,<2",
+  "matplotlib>=3.8,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.5"]
+
+[project.urls]
+Paper = "https://doi.org/10.1145/3841560.3841563"
+"Project page" = "https://physfidelity3d.github.io/"
+
+[tool.setuptools]
+packages = ["physfidelity3d"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

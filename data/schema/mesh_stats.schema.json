@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/physfidelity3d/PhysFidelity3D/main/data/schema/mesh_stats.schema.json",
+  "title": "PhysFidelity3D mesh statistics",
+  "description": "Per-object mesh diagnostics. Top-level keys are object IDs (string). Most released files include only the required per-object fields. Three DUSt3R YCB-V scenes additionally include optional Poisson/CoACD fields; these are permitted, not required.",
+  "type": "object",
+  "minProperties": 1,
+  "additionalProperties": {
+    "type": "object",
+    "required": ["watertight", "vertex_count", "face_count"],
+    "properties": {
+      "watertight": {"type": "boolean"},
+      "vertex_count": {"type": "integer", "minimum": 0},
+      "face_count": {"type": "integer", "minimum": 0},
+      "volume_m3": {"type": ["number", "null"], "description": "Mesh volume in cubic metres when watertight"},
+      "reason": {"type": "string"},
+      "poisson_depth": {"type": "integer"},
+      "poisson_scale": {"type": "number"},
+      "coacd_threshold": {"type": ["number", "null"]},
+      "coacd_max_hulls": {"type": ["integer", "null"]},
+      "n_hulls": {"type": "integer"},
+      "decomp_method": {"type": "string"}
+    },
+    "additionalProperties": true
+  }
+}

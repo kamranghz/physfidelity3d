@@ -1,0 +1,32 @@
+{
+  "1": {
+    "watertight": false,
+    "vertex_count": 66338,
+    "face_count": 132916,
+    "volume_m3": null
+  },
+  "3": {
+    "watertight": false,
+    "vertex_count": 93213,
+    "face_count": 186594,
+    "volume_m3": null
+  },
+  "4": {
+    "watertight": false,
+    "vertex_count": 61499,
+    "face_count": 123074,
+    "volume_m3": null
+  },
+  "12": {
+    "watertight": false,
+    "vertex_count": 31575,
+    "face_count": 63350,
+    "volume_m3": null
+  },
+  "17": {
+    "watertight": false,
+    "vertex_count": 25734,
+    "face_count": 51540,
+    "volume_m3": null
+  }
+}

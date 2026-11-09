@@ -1,0 +1,89 @@
+{
+  "model": "VGGT",
+  "scene": "picasso_tissue_holder_spatula_spread",
+  "nps_scene_mm": 1.6431435796487621,
+  "per_object_nps_mm": {
+    "0": 2.78749869688757,
+    "1": 2.1419320420587167,
+    "2": 0.0
+  },
+  "pen_matrix_mm": [
+    [
+      0.0,
+      6.4257961261761505,
+      0.0
+    ],
+    [
+      6.4257961261761505,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "pen_matrix_raw_mm": [
+    [
+      0.0,
+      6.4257961261761505,
+      0.0
+    ],
+    [
+      6.4257961261761505,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "cap_hit_matrix": [
+    [
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false
+    ]
+  ],
+  "n_cap_hits": 0,
+  "cap_hit_fraction": 0.0,
+  "per_object_env_pen_raw_mm": {
+    "0": 1.9366999644865606,
+    "1": 0.0,
+    "2": 0.0
+  },
+  "per_object_env_pen_mm": {
+    "0": 1.9366999644865606,
+    "1": 0.0,
+    "2": 0.0
+  },
+  "per_object_env_cap_hit": {
+    "0": false,
+    "1": false,
+    "2": false
+  },
+  "object_order": [
+    "0",
+    "1",
+    "2"
+  ],
+  "n_objects": 3,
+  "formula": "Eq.16 arXiv:2602.08058v2",
+  "sdf_tool": "Picasso query_sdf_from_mesh (libigl)",
+  "pen_cap_m": 0.01,
+  "indicator": "Eq.16_standard_no_ADD-S",
+  "free_space_skipped": true
+}

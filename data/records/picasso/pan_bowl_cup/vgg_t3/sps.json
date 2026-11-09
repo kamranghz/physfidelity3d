@@ -1,0 +1,18 @@
+{
+  "model": "VGG-TTT",
+  "scene": "picasso_pan_bowl_cup_spread",
+  "sps_scene": 16.117827653442532,
+  "per_object_ke": {
+    "0": 5.843025733368777,
+    "1": 0.24030835094474307,
+    "2": 10.03449356912901
+  },
+  "blow_up": false,
+  "n_objects": 3,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

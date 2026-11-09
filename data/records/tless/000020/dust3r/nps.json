@@ -1,0 +1,121 @@
+{
+  "model": "DUSt3R",
+  "scene": "tless_000020_spread_scaled",
+  "nps_scene_mm": 0.4985095188910385,
+  "per_object_nps_mm": {
+    "1": 0.00609473254868434,
+    "2": 0.04480187040597809,
+    "3": 0.9522171673760988,
+    "4": 0.9909243052333926
+  },
+  "pen_matrix_mm": [
+    [
+      0.0,
+      0.02437893019473736,
+      0.0,
+      0.0
+    ],
+    [
+      0.02437893019473736,
+      0.0,
+      0.0,
+      0.15482855142917504
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      3.8088686695043954
+    ],
+    [
+      0.0,
+      0.15482855142917504,
+      3.8088686695043954,
+      0.0
+    ]
+  ],
+  "pen_matrix_raw_mm": [
+    [
+      0.0,
+      0.02437893019473736,
+      0.0,
+      0.0
+    ],
+    [
+      0.02437893019473736,
+      0.0,
+      0.0,
+      0.15482855142917504
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      3.8088686695043954
+    ],
+    [
+      0.0,
+      0.15482855142917504,
+      3.8088686695043954,
+      0.0
+    ]
+  ],
+  "cap_hit_matrix": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "n_cap_hits": 0,
+  "cap_hit_fraction": 0.0,
+  "per_object_env_pen_raw_mm": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+  },
+  "per_object_env_pen_mm": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+  },
+  "per_object_env_cap_hit": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false
+  },
+  "object_order": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "n_objects": 4,
+  "formula": "Eq.16 arXiv:2602.08058v2",
+  "sdf_tool": "Picasso query_sdf_from_mesh (libigl)",
+  "pen_cap_m": 0.01,
+  "indicator": "Eq.16_standard_no_ADD-S",
+  "free_space_skipped": true
+}

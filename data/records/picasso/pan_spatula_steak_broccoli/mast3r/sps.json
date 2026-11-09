@@ -1,0 +1,19 @@
+{
+  "model": "MASt3R",
+  "scene": "picasso_pan_spatula_steak_broccoli_spread_scaled",
+  "sps_scene": 43.05018864739217,
+  "per_object_ke": {
+    "0": 9.519927845455456,
+    "1": 13.514047498803006,
+    "2": 10.007845571769638,
+    "3": 10.00836773136407
+  },
+  "blow_up": false,
+  "n_objects": 4,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

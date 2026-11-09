@@ -1,0 +1,121 @@
+{
+  "model": "VGG-TTT",
+  "scene": "ycbv_000056_spread",
+  "nps_scene_mm": 3.125,
+  "per_object_nps_mm": {
+    "1": 5.0,
+    "10": 0.0,
+    "11": 2.5,
+    "15": 5.0
+  },
+  "pen_matrix_mm": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      10.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "pen_matrix_raw_mm": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      24.398780002054178
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      24.398780002054178,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "cap_hit_matrix": [
+    [
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "n_cap_hits": 1,
+  "cap_hit_fraction": 0.16666666666666666,
+  "per_object_env_pen_raw_mm": {
+    "1": 34.988690477893485,
+    "10": 0.0,
+    "11": 149.99955277769195,
+    "15": 141.67211811892727
+  },
+  "per_object_env_pen_mm": {
+    "1": 10.0,
+    "10": 0.0,
+    "11": 10.0,
+    "15": 10.0
+  },
+  "per_object_env_cap_hit": {
+    "1": true,
+    "10": false,
+    "11": true,
+    "15": true
+  },
+  "object_order": [
+    "1",
+    "10",
+    "11",
+    "15"
+  ],
+  "n_objects": 4,
+  "formula": "Eq.16 arXiv:2602.08058v2",
+  "sdf_tool": "Picasso query_sdf_from_mesh (libigl)",
+  "pen_cap_m": 0.01,
+  "indicator": "Eq.16_standard_no_ADD-S",
+  "free_space_skipped": true
+}

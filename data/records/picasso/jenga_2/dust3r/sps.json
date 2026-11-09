@@ -1,0 +1,20 @@
+{
+  "model": "DUSt3R",
+  "scene": "picasso_jenga_2_spread_scaled",
+  "sps_scene": 0.0034447919324898306,
+  "per_object_ke": {
+    "0": 9.539105146644231e-05,
+    "1": 0.0010879641139235835,
+    "2": 0.00036557187303218455,
+    "3": 0.0011194179093037718,
+    "4": 0.0007764469847638482
+  },
+  "blow_up": false,
+  "n_objects": 5,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

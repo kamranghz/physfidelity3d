@@ -1,0 +1,17 @@
+{
+  "model": "DUSt3R",
+  "scene": "picasso_holder_cup_spread_scaled",
+  "sps_scene": 0.0037035709313026823,
+  "per_object_ke": {
+    "0": 0.003122609256683424,
+    "1": 0.0005809616746192584
+  },
+  "blow_up": false,
+  "n_objects": 2,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

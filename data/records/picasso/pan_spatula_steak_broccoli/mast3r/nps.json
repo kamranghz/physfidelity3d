@@ -1,0 +1,121 @@
+{
+  "model": "MASt3R",
+  "scene": "picasso_pan_spatula_steak_broccoli_spread_scaled",
+  "nps_scene_mm": 5.797528969330686,
+  "per_object_nps_mm": {
+    "0": 10.0,
+    "1": 5.0,
+    "2": 4.5905642235694355,
+    "3": 3.599551653753307
+  },
+  "pen_matrix_mm": [
+    [
+      0.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "pen_matrix_raw_mm": [
+    [
+      0.0,
+      25.01200215382607,
+      28.432009663332025,
+      19.88921746957656
+    ],
+    [
+      25.01200215382607,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      28.432009663332025,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      19.88921746957656,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "cap_hit_matrix": [
+    [
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ]
+  ],
+  "n_cap_hits": 3,
+  "cap_hit_fraction": 0.5,
+  "per_object_env_pen_raw_mm": {
+    "0": 137.49152005209226,
+    "1": 255.40459914253194,
+    "2": 8.362256894277744,
+    "3": 4.398206615013229
+  },
+  "per_object_env_pen_mm": {
+    "0": 10.0,
+    "1": 10.0,
+    "2": 8.362256894277744,
+    "3": 4.398206615013229
+  },
+  "per_object_env_cap_hit": {
+    "0": true,
+    "1": true,
+    "2": false,
+    "3": false
+  },
+  "object_order": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "n_objects": 4,
+  "formula": "Eq.16 arXiv:2602.08058v2",
+  "sdf_tool": "Picasso query_sdf_from_mesh (libigl)",
+  "pen_cap_m": 0.01,
+  "indicator": "Eq.16_standard_no_ADD-S",
+  "free_space_skipped": true
+}

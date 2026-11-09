@@ -1,0 +1,38 @@
+{
+  "5": {
+    "watertight": false,
+    "vertex_count": 101409,
+    "face_count": 202990,
+    "volume_m3": null,
+    "poisson_depth": 9,
+    "poisson_scale": 1.1,
+    "coacd_threshold": null,
+    "coacd_max_hulls": null,
+    "n_hulls": 1,
+    "decomp_method": "convex_fallback"
+  },
+  "6": {
+    "watertight": true,
+    "vertex_count": 33350,
+    "face_count": 66732,
+    "volume_m3": 0.00024912115016995757,
+    "poisson_depth": 9,
+    "poisson_scale": 1.1,
+    "coacd_threshold": 0.05,
+    "coacd_max_hulls": 8,
+    "n_hulls": 8,
+    "decomp_method": "coacd"
+  },
+  "11": {
+    "watertight": false,
+    "vertex_count": 237175,
+    "face_count": 474906,
+    "volume_m3": null,
+    "poisson_depth": 9,
+    "poisson_scale": 1.1,
+    "coacd_threshold": null,
+    "coacd_max_hulls": null,
+    "n_hulls": 1,
+    "decomp_method": "convex_fallback"
+  }
+}

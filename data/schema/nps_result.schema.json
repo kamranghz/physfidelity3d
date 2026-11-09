@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/physfidelity3d/PhysFidelity3D/main/data/schema/nps_result.schema.json",
+  "title": "PhysFidelity3D NPS result",
+  "description": "Scene-level Non-Penetration Score (NPS) result. Units: nps_scene_mm and *_mm fields are millimetres; pen_cap_m is metres.",
+  "type": "object",
+  "required": [
+    "model",
+    "scene",
+    "nps_scene_mm",
+    "per_object_nps_mm",
+    "pen_matrix_mm",
+    "pen_matrix_raw_mm",
+    "cap_hit_matrix",
+    "n_cap_hits",
+    "cap_hit_fraction",
+    "object_order",
+    "n_objects",
+    "pen_cap_m"
+  ],
+  "properties": {
+    "model": {"type": "string"},
+    "scene": {"type": "string"},
+    "nps_scene_mm": {"type": "number", "description": "Scene NPS in millimetres"},
+    "per_object_nps_mm": {
+      "type": "object",
+      "additionalProperties": {"type": "number"},
+      "description": "Per-object NPS in millimetres"
+    },
+    "pen_matrix_mm": {
+      "type": "array",
+      "items": {"type": "array", "items": {"type": "number"}},
+      "description": "Capped pairwise penetration matrix (mm)"
+    },
+    "pen_matrix_raw_mm": {
+      "type": "array",
+      "items": {"type": "array", "items": {"type": "number"}},
+      "description": "Uncapped pairwise penetration matrix (mm)"
+    },
+    "cap_hit_matrix": {
+      "type": "array",
+      "items": {"type": "array", "items": {"type": "boolean"}}
+    },
+    "n_cap_hits": {"type": "integer", "minimum": 0},
+    "cap_hit_fraction": {"type": "number"},
+    "per_object_env_pen_raw_mm": {
+      "type": "object",
+      "additionalProperties": {"type": "number"}
+    },
+    "per_object_env_pen_mm": {
+      "type": "object",
+      "additionalProperties": {"type": "number"}
+    },
+    "per_object_env_cap_hit": {
+      "type": "object",
+      "additionalProperties": {"type": "boolean"}
+    },
+    "object_order": {"type": "array", "items": {"type": "string"}},
+    "n_objects": {"type": "integer", "minimum": 0},
+    "formula": {"type": "string"},
+    "sdf_tool": {"type": "string"},
+    "pen_cap_m": {
+      "type": "number",
+      "description": "Penetration cap in metres (typically 0.01 = 10 mm)"
+    },
+    "indicator": {"type": "string"},
+    "free_space_skipped": {"type": "boolean"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,20 @@
+{
+  "model": "VGGT-Omega",
+  "scene": "tless_000014_spread",
+  "sps_scene": 2.474372593389378,
+  "per_object_ke": {
+    "19": 0.42935237966796524,
+    "20": 0.8740709792722625,
+    "22": 0.08482757568206277,
+    "23": 1.025901375944335,
+    "24": 0.06022028282275238
+  },
+  "blow_up": false,
+  "n_objects": 5,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

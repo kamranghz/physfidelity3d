@@ -1,0 +1,20 @@
+{
+  "model": "MASt3R",
+  "scene": "ycbv_000054_spread_scaled",
+  "sps_scene": 1.060594329441478,
+  "per_object_ke": {
+    "2": 0.37909545059416844,
+    "3": 0.0020088252447419594,
+    "12": 0.0029753724698812667,
+    "15": 0.36677274206815097,
+    "19": 0.3097419390645353
+  },
+  "blow_up": false,
+  "n_objects": 5,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}

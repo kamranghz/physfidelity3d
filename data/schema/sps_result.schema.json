@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/physfidelity3d/PhysFidelity3D/main/data/schema/sps_result.schema.json",
+  "title": "PhysFidelity3D SPS result",
+  "description": "Scene-level Scene Plausibility Score (SPS). sps_scene and per_object_ke are in J (kg·m²/s²) under the reconstruction protocol; timestep_s is seconds.",
+  "type": "object",
+  "required": [
+    "model",
+    "scene",
+    "sps_scene",
+    "per_object_ke",
+    "blow_up",
+    "n_objects",
+    "timestep_s",
+    "n_steps",
+    "canonical_mass_kg"
+  ],
+  "properties": {
+    "model": {"type": "string"},
+    "scene": {"type": "string"},
+    "sps_scene": {"type": "number", "description": "Scene SPS (sum of capped per-object KE)"},
+    "per_object_ke": {
+      "type": "object",
+      "additionalProperties": {"type": "number"},
+      "description": "Per-object capped kinetic energy (J)"
+    },
+    "blow_up": {"type": "boolean"},
+    "n_objects": {"type": "integer", "minimum": 0},
+    "formula": {"type": "string"},
+    "ke_cap_per_component_kgm2s2": {
+      "type": "number",
+      "description": "KE cap per translational/rotational component"
+    },
+    "timestep_s": {
+      "type": "number",
+      "description": "PyBullet timestep in seconds (canonical code uses 1.0/240.0)"
+    },
+    "n_steps": {"type": "integer"},
+    "canonical_mass_kg": {"type": "number"},
+    "canonical_inertia": {
+      "oneOf": [
+        {"type": "string"},
+        {"type": "array", "items": {"type": "number"}}
+      ]
+    }
+  },
+  "additionalProperties": true
+}

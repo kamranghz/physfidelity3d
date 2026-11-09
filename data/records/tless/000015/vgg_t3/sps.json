@@ -1,0 +1,21 @@
+{
+  "model": "VGG-TTT",
+  "scene": "tless_000015_spread",
+  "sps_scene": 1.3325049731876824,
+  "per_object_ke": {
+    "25": 0.33320731508804374,
+    "26": 0.33188505112080047,
+    "27": 0.0012436265421547036,
+    "28": 0.0010865813327631908,
+    "29": 0.33253792071339416,
+    "30": 0.3325444783905262
+  },
+  "blow_up": false,
+  "n_objects": 6,
+  "formula": "Eq.14 arXiv:2602.08058v2",
+  "ke_cap_per_component_kgm2s2": 10.0,
+  "timestep_s": 0.004166666666666667,
+  "n_steps": 20,
+  "canonical_mass_kg": 1.0,
+  "canonical_inertia": "I_3"
+}
