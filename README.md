@@ -6,9 +6,10 @@
 
 The International Workshop on Industrial Physical AI (WIPAI '26), ACM Multimedia 2026, Rio de Janeiro
 
-[![Paper](https://img.shields.io/badge/Paper-10.1145%2F3841560.3841563-blue)](https://doi.org/10.1145/3841560.3841563)
+[![Paper](https://img.shields.io/badge/Paper-ACM%20DL-blue)](https://dl.acm.org/doi/abs/10.1145/3841560.3841563)
+[![Slides](https://img.shields.io/badge/Slides-ResearchGate-00ccbb)](https://www.researchgate.net/publication/417640419_Benchmarking_the_Physical_Fidelity_of_Feed_Forward_3D_Reconstruction_for_Physical_AI)
 [![Project page](https://img.shields.io/badge/Project-physfidelity3d.github.io-green)](https://physfidelity3d.github.io/)
-[![CI](https://github.com/physfidelity3d/PhysFidelity3D/actions/workflows/ci.yml/badge.svg)](https://github.com/physfidelity3d/PhysFidelity3D/actions/workflows/ci.yml)
+[![CI](https://github.com/kamranghz/PhysFidelity3D/actions/workflows/ci.yml/badge.svg)](https://github.com/kamranghz/PhysFidelity3D/actions/workflows/ci.yml)
 
 ![Reconstruction-to-evaluation pipeline](assets/fig1_pipeline.png)
 
@@ -41,7 +42,7 @@ The reconstruction and simulation pipeline, and the point clouds of Fig. 10, are
 ## Reproduce the paper
 
 ```bash
-git clone https://github.com/physfidelity3d/PhysFidelity3D.git
+git clone https://github.com/kamranghz/PhysFidelity3D.git
 cd PhysFidelity3D
 pip install -e ".[dev]"
 
@@ -91,13 +92,16 @@ Code: [MIT](LICENSE). Records and recorded results in `data/`: [CC BY 4.0](LICEN
 ## Citation
 
 ```bibtex
-@inproceedings{gholizadeh2026physfidelity,
+@inproceedings{10.1145/3841560.3841563,
   author    = {Gholizadeh HamlAbadi, Kamran and Vahdati, Monica and Etemad, Ali and El Saddik, Abdulmotaleb},
   title     = {Benchmarking the Physical Fidelity of Feed-Forward 3D Reconstruction for Physical AI},
-  booktitle = {The International Workshop on Industrial Physical AI (WIPAI '26)},
+  booktitle = {Proceedings of the 1st International Workshop on Industrial Physical AI},
+  series    = {WIPAI '26},
+  pages     = {31--41},
   year      = {2026},
-  address   = {Rio de Janeiro, Brazil},
-  publisher = {ACM},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  location  = {Rio de Janeiro, Brazil},
   doi       = {10.1145/3841560.3841563}
 }
 ```

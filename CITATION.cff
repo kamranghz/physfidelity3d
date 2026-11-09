@@ -3,7 +3,7 @@ message: "If you use these records or this code, please cite the paper."
 title: "Benchmarking the Physical Fidelity of Feed-Forward 3D Reconstruction for Physical AI"
 version: 1.0.0
 license: MIT
-repository-code: "https://github.com/physfidelity3d/PhysFidelity3D"
+repository-code: "https://github.com/kamranghz/PhysFidelity3D"
 url: "https://physfidelity3d.github.io/"
 authors:
   - family-names: "Gholizadeh HamlAbadi"
@@ -30,12 +30,15 @@ preferred-citation:
       given-names: "Ali"
     - family-names: "El Saddik"
       given-names: "Abdulmotaleb"
-  collection-title: "The International Workshop on Industrial Physical AI (WIPAI '26)"
+  collection-title: "Proceedings of the 1st International Workshop on Industrial Physical AI"
+  start: 31
+  end: 41
+  isbn: "9798400729430"
   conference:
     name: "WIPAI '26, ACM Multimedia 2026"
     city: "Rio de Janeiro"
     country: "BR"
   publisher:
-    name: "ACM"
+    name: "Association for Computing Machinery"
   year: 2026
   doi: "10.1145/3841560.3841563"
